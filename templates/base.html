@@ -58,9 +58,17 @@
     </nav>
 
     <main class="flex-shrink-0 main-bg">
-        {% block content %}
-        <!-- Content Goes here -->
-        {% endblock content %}
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mt-3 offset-md-2">
+
+                {% block content %}
+                <!-- Content Goes here -->
+                {% endblock content %}
+
+            </div>
+        </div>
+    </div>
     </main>
 
     <!-- Footer -->
